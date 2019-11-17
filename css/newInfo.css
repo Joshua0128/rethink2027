@@ -210,6 +210,20 @@ header > a >h1 {
     border-radius: 48.5px;
 }
 
+#app-phone {
+    display: none;
+}
 
 
+/* RWD */
+/*------------------------------------------------------*/
+@media screen and (max-width:768px) {
+    #app {
+        display: none;
+    }
 
+    #app-phone {
+        display: block;
+    }
+
+}
