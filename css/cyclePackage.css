@@ -48,22 +48,23 @@ header > h1 {
 /* 新資訊 */
 /*------------------------------------------------------*/
 #app > .masterVision {
-  /* border: 1px solid red; */
   width: 100%;
-  height: 80vh;
   overflow: hidden;
 }
 
 #app > .masterVision > img {
-  width: auto;
-  height: 100%;
+  /* width: auto; */
+  /* height: 100%; */
+  width: 100%;
   margin: 0 auto;
 }
 
 #app > .masterVision > a > .card-1 {
   position: absolute;
-  top: 12%;
-  left: 50%;
+  /* top: 12%; */
+  top: 1vw;
+  /* left: 50%; */
+  left: 50vw;
   margin-left: -6vw;
   text-decoration: none;
   width: 12vw;
@@ -72,9 +73,40 @@ header > h1 {
 }
 
 
-#app > .masterVision > a > .card-1 > h1 {
+#app > .masterVision > a > div > h1 {
   text-align: center;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 1.2vw;
+  border: 1px solid #ffc200;
+  background-color: #ffc200;
+  color: white;
+  /* line-height: 32px  */
+  line-height: 3vw;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  box-shadow: 0px 1px 2px #000;
+}
+
+
+#app > .masterVision > a > div > h3 {
+  text-align: left;
+  /* font-size: 0.85rem; */
+  font-size: 0.9vw;
+  color: #ffc200;
+  word-break: break-all;
+  padding: 1vw;
+  line-height: 1.8vw;
+  background-color: white;
+  border: 1px solid white;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 0px 1px 2px #000;
+}
+
+
+/* #app > .masterVision > a > .card-1 > h1 {
+  text-align: center;
+  font-size: 1.7vw;
   border: 1px solid #ffc200;
   background-color: #ffc200;
   color: white;
@@ -87,7 +119,7 @@ header > h1 {
 
 #app > .masterVision > a > .card-1 > h3 {
   text-align: left;
-  font-size: 0.85rem;
+  font-size: 1.5vw;
   color: #ffc200;
   word-break: break-all;
   padding: 1vw;
@@ -96,7 +128,7 @@ header > h1 {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   box-shadow: 0px 1px 2px #000;
-}
+} */
 
 /* 行動規劃 */
 /*------------------------------------------------------*/
@@ -115,8 +147,8 @@ header > h1 {
 
 #app > .masterVision > a > .card-2 {
   position: absolute;
-  top: 62vh;
-  left: 33vw;
+  top: 29vw;
+  left: 31vw;
   margin-left: -6vw;
   text-decoration: none;
   width: 12vw;
@@ -124,7 +156,7 @@ header > h1 {
   
 }
 
-#app > .masterVision > a > .card-2 > h1 {
+/* #app > .masterVision > a > .card-2 > h1 {
   text-align: center;
   font-size: 16px;
   border: 1px solid #ffc200;
@@ -147,7 +179,7 @@ header > h1 {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   box-shadow: 0px 1px 2px #000;
-}
+} */
 
 /* 新觀點 */
 /*------------------------------------------------------*/
@@ -166,8 +198,8 @@ header > h1 {
 
 #app > .masterVision > a > .card-3 {
   position: absolute;
-  top: 62vh;
-  left: 67vw;
+  top: 29vw;
+  left: 69vw;
   margin-left: -6vw;
   text-decoration: none;
   width: 12vw;
@@ -175,7 +207,7 @@ header > h1 {
   
 }
 
-#app > .masterVision > a > .card-3 > h1 {
+/* #app > .masterVision > a > .card-3 > h1 {
   text-align: center;
   font-size: 16px;
   border: 1px solid #ffc200;
@@ -198,14 +230,14 @@ header > h1 {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   box-shadow: 0px 1px 2px #000;
-}
+} */
 
 /* 行動 */
 /*------------------------------------------------------*/
 #app > .masterVision > a > .card-4 {
   position: absolute;
-  top: 30vh;
-  left: 33vw;
+  top: 10vw;
+  left: 31vw;
   /* transform-origin: 0 30vw;
   transform:rotate(10deg); */
   margin-left: -6vw;
@@ -214,50 +246,38 @@ header > h1 {
   height: auto;
   
 }
-
 #app > .masterVision > a > .card-4 > h1 {
-  text-align: center;
-  font-size: 16px;
   border: 1px solid #159078;
   background-color: #159078;
-  color: white;
-  line-height: 32px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  box-shadow: 0px 1px 2px #000;
 }
 
 #app > .masterVision > a > .card-4 > h3 {
-  text-align: left;
-  font-size: 0.85rem;
-  color: #159078;
-  word-break: break-all;
-  padding: 1vw;
-  background-color: white;
-  border: 1px solid white;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  box-shadow: 0px 1px 2px #000;
+  color:#159078;
 }
+
+
 
 /* 發想 */
 /*------------------------------------------------------*/
 #app > .masterVision {
   /* border: 1px solid red; */
   width: 100%;
-  height: 80vh;
-  overflow: hidden;
+  /* height: 80vh; */
+  height: auto;
+  /* overflow: hidden; */
 }
 
 #app > .masterVision > img {
-  width: auto;
-  height: 100%;
+  /* width: auto; */
+  width: 40%;
+  /* height: 100%; */
+  height: auto;
   margin: 0 auto;
 }
 
 #app > .masterVision > a > .card-5 {
   position: absolute;
-  top: 83vh;
+  top: 38vw;
   left: 50vw;
   /* transform-origin: 0 30vw;
   transform:rotate(10deg); */
@@ -267,38 +287,23 @@ header > h1 {
   height: auto;
   
 }
-
 #app > .masterVision > a > .card-5 > h1 {
-  text-align: center;
-  font-size: 16px;
   border: 1px solid #159078;
   background-color: #159078;
-  color: white;
-  line-height: 32px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  box-shadow: 0px 1px 2px #000;
 }
 
 #app > .masterVision > a > .card-5 > h3 {
-  text-align: left;
-  font-size: 0.85rem;
   color: #159078;
-  word-break: break-all;
-  padding: 1vw;
-  background-color: white;
-  border: 1px solid white;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  box-shadow: 0px 1px 2px #000;
 }
+
+
 
 /* 反思 */
 /*------------------------------------------------------*/
 #app > .masterVision > a > .card-6 {
   position: absolute;
-  top: 30vh;
-  left: 67vw;
+  top: 10vw;
+  left: 69vw;
   /* transform-origin: 0 30vw;
   transform:rotate(10deg); */
   margin-left: -6vw;
@@ -309,28 +314,12 @@ header > h1 {
 }
 
 #app > .masterVision > a > .card-6 > h1 {
-  text-align: center;
-  font-size: 16px;
   border: 1px solid #159078;
   background-color: #159078;
-  color: white;
-  line-height: 32px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  box-shadow: 0px 1px 2px #000;
 }
 
 #app > .masterVision > a > .card-6 > h3 {
-  text-align: left;
-  font-size: 0.85rem;
   color: #159078;
-  word-break: break-all;
-  padding: 1vw;
-  background-color: white;
-  border: 1px solid white;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  box-shadow: 0px 1px 2px #000;
 }
 
 
@@ -342,13 +331,139 @@ header > h1 {
 /* RWD */
 /*------------------------------------------------------*/
 @media screen and (max-width:768px) {
-  #app {
-      display: none;
-  }
 
-  #app-phone {
-      display: block;
+  #app > .masterVision > a > div {
+    margin-top: 9vw;
   }
-
+  #app > .masterVision > a > div > h1 {
+    font-size: 1.5vw;
+    line-height: 3vw;
+    border-radius: 1px;
+    /* border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+    box-shadow: 0px 1px 2px #000;
+  }
+  
+  
+  #app > .masterVision > a > div > h3 {
+    display: none;
+    text-align: left;
+    /* font-size: 0.85rem; */
+    font-size: 0.5vw;
+    color: #ffc200;
+    word-break: break-all;
+    padding: 1vw;
+    line-height: 1.7vw;
+  }
 }
 
+
+@media screen and (max-width:588px) {
+  #app > header > h1 {
+    width: 15vw;
+    /* border: 1px solid red; */
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+  }
+
+  #app > .masterVision > a > div {
+    padding-top: 5vw;
+  }
+    
+
+  #app > .masterVision > a > div > h1 {
+    font-size: 1.5vw;
+    line-height: 3vw;
+    border-radius: 1px;
+    /* border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+    box-shadow: 0px 1px 2px #000;
+  }
+  
+  
+  #app > .masterVision > a > div > h3 {
+    display: none;
+    text-align: left;
+    /* font-size: 0.85rem; */
+    font-size: 0.5vw;
+    color: #ffc200;
+    word-break: break-all;
+    padding: 1vw;
+    line-height: 1.7vw;
+  }
+  
+
+} 
+
+@media screen and (max-width:480px) {
+  #app > header > h1 {
+    width: 15vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+  }
+
+  #app > .masterVision > a > div {
+    padding-top: 2vw;
+  }
+    
+
+  #app > .masterVision > a > div > h1 {
+    font-size: 1.5vw;
+    line-height: 3vw;
+    border-radius: 1px;
+    /* border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+    box-shadow: 0px 1px 2px #000;
+  }
+  
+  
+  #app > .masterVision > a > div > h3 {
+    display: none;
+    text-align: left;
+    /* font-size: 0.85rem; */
+    font-size: 0.5vw;
+    color: #ffc200;
+    word-break: break-all;
+    padding: 1vw;
+    line-height: 1.7vw;
+  }
+  
+
+} 
+
+@media screen and (max-width:350px) {
+  #app > header > h1 {
+    width: 15vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+  }
+
+  #app > .masterVision > a > div {
+    position: absolute;
+    top: 50%;
+  }
+    
+
+  #app > .masterVision > a > div > h1 {
+    font-size: 1.5vw;
+    line-height: 3vw;
+    border-radius: 1px;
+    /* border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+    box-shadow: 0px 1px 2px #000;
+  }
+  
+  
+  #app > .masterVision > a > div > h3 {
+    display: none;
+    text-align: left;
+    /* font-size: 0.85rem; */
+    font-size: 0.5vw;
+    color: #ffc200;
+    word-break: break-all;
+    padding: 1vw;
+    line-height: 1.7vw;
+  }
+  
+
+} 

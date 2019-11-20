@@ -57,7 +57,7 @@ header > h1{
 #app > .masterVision > h1{
     font-size: 60px;
     color: #ffffff;
-    padding-top: 220px;
+    padding-top: 15vh;
     font-weight: 900;
     line-height: 120px;
     padding-left: 15vw;
@@ -92,6 +92,7 @@ header > h1{
 
 
 
+/*------------------------------------------------------*/
 #app-phone {
     display: none;
 }
