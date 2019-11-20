@@ -93,14 +93,11 @@ header > h1{
 
 
 /*------------------------------------------------------*/
-#app-phone {
-    display: none;
-}
 
 
 /* RWD */
 /*------------------------------------------------------*/
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     #app {
         display: none;
     }
@@ -109,4 +106,4 @@ header > h1{
         display: block;
     }
 
-}
+} */
